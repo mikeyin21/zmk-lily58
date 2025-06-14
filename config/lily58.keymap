@@ -62,7 +62,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp PAGE_UP     &kp PAGE_DOWN   &none      &none  &none  &none
 &trans  &trans  &trans  &trans  &trans  &trans                    &none           &kp UP_ARROW    &kp F2     &none  &none  &none
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &none           &none           &none      &none  &none  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp EQUAL       &none           &none      &none  &none  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans
             >;
 
@@ -71,11 +71,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp KP_N7     &kp KP_N8  &kp KP_N9  &mt PLUS KP_SUBTRACT    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp KP_N4     &kp KP_N5  &kp KP_N6  &mt ASTERISK KP_DIVIDE  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp KP_N1     &kp KP_N2  &kp KP_N3  &trans                  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_EQUAL  &kp KP_N0  &trans     &trans                  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp KP_N7  &kp KP_N8  &kp KP_N9  &mt PLUS KP_SUBTRACT    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp KP_N4  &kp KP_N5  &kp KP_N6  &mt ASTERISK KP_DIVIDE  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans                  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp EQUAL  &kp KP_N0  &trans     &trans                  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans
             >;
         };
     };
